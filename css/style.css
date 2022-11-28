@@ -1,0 +1,58 @@
+/* section */
+#scanner-box{
+  background-color: hsl(212, 45%, 89%);
+  font-family: 'Outfit', sans-serif;
+  text-align: center;
+  height: 40rem;
+  padding-top: 80px;
+}
+body{
+  margin: 0;
+}
+img{
+
+  width: 100%;
+  border-radius: 15px;
+
+}
+h3{
+  color: hsl(218, 44%, 22%);
+  font-size: 1.2rem;
+  font-weight: 700;
+  width: 80%;
+  margin: 1rem auto;
+  line-height: 1.5;
+}
+p{
+  color: hsl(220, 15%, 55%);
+  font-size: .90rem;
+  font-weight: 400;
+    width: 80%;
+    margin: 1rem auto;
+      line-height: 1.5;
+}
+
+/* scanner box */
+.box{
+  background-color: #fff;
+  height: 30rem;
+  width: 20%;
+  margin: 30px auto;
+  padding: 1rem;
+  border-radius: 15px;
+}
+/* viewport 500px */
+@media (max-width: 500px) {
+  .box{
+    height: 85%;
+    width: 70%;
+  }
+  h3{
+    margin: 1rem auto;
+    width: 70%;
+  }
+  p{
+      width: 70%;
+      margin: 1rem auto;
+  }
+}
